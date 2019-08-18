@@ -1,17 +1,21 @@
 # Linear_Algebra
 
+This repository consists of the implementation of 2 projects of Linear Algebra:
+
 1. Design a program to ﬁnd the projection matrix P onto the space spanned by 2 vectors.
 2. Design a program to check which of the matrices cannot be diagonalised.
 
-ALGORITHM
+## ALGORITHM:
 
-To ﬁnd the projection matrix P onto the space spanned by 2 vectors
+To ﬁnd the projection matrix P onto the space spanned by 2 vectors:
+
 1. Give 2 input vectors whose projection matrix has to be found.
 2. Find the transpose of those matrices.
 3. Then ﬁnd the dot product of obtained transpose with the matrices.
 4. Similarly repeat these steps to obtain projection matrix P given by P = A * (A * AT) AT
 
-To check which of the matrices cannot be diagonalised 
+To check which of the matrices cannot be diagonalised:
+
 1. Let A be the n×n matrix that you want to diagonalize. 
 2. Find the characteristic polynomial p(t) of A.
 3. Find eigenvalues λ of the matrix A and their algebraic multiplicities from the characteristic polynomial p(t).
